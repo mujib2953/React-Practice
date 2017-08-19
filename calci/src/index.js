@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './Components/App';
 
-class Calci extends React.Component {
-    render() {
-        return (
-            <div>
-                Calculator.
-            </div>
-        );
-    }
-};
-ReactDOM.render( <Calci />, document.getElementById( 'root' ) );
+ReactDOM.render( <App />, document.getElementById( 'root' ) );

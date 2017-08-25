@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+    padding: 0;
+    background: #D7D7D7;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.gameBorad {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    background: #fff;
+    border: 5px solid #808080;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+.gameNameParent {
+    height: 100%;
+}
+.gameName {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+
+    border-bottom: 0.5px solid #777;
+}
+.gameNameCenter {
+    height: 93.5%;
+}
+.commonBlock {
+    width: 32%;
+    display: inline-block;
+    height: 100%;
+    border: 0.5px solid #000;
+}
+.allColors {
+    /*background: red;*/
+}
+.userChoice {
+    /*background: green;*/
+}
+.outputWindow {
+    /*background: blue;*/
+}
+
+.circle {
+    display: block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.red {
+    background: #F00;
+}
+.blue {
+    background: #00F;
+}

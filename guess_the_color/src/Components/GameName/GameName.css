@@ -1,0 +1,14 @@
+.gameNameParent {
+    height: 100%;
+}
+
+.gameName {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+
+    border-bottom: 0.5px solid #777;
+}
+.gameNameCenter {
+    height: 93.5%;
+}

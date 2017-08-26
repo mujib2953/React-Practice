@@ -1,0 +1,11 @@
+.gameBorad {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    background: #fff;
+    border: 5px solid #808080;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}

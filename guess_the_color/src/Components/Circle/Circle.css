@@ -11,6 +11,15 @@
 .red {
     background: #F00;
 }
+.green {
+    background: #0F0;
+}
 .blue {
     background: #00F;
+}
+.pink {
+    background: #F0F;
+}
+.yellow {
+    background: #FF0;
 }

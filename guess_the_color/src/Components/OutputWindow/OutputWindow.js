@@ -5,7 +5,9 @@ import './OutputWindow.css';
 class OutputWindow extends React.Component {
     render() {
         return (
-            <div className="outputWindow commonBlock">Out-put Window</div>
+            <div className="outputWindow commonBlock">
+                { this.props.state.gameText.tabs[ 2 ] }
+            </div>
         );
     }
 }

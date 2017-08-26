@@ -7,13 +7,14 @@ import OutputWindow from '../OutputWindow/OutputWindow';
 
 class GameName extends React.Component {
     render() {
+        console.log( this.props );
         return (
             <div className="gameNameParent">
-                <div className="gameName">Guess the Color</div>
+                <div className="gameName">{ this.props.state.gameText.title }</div>
                 <center className="gameNameCenter">
-                    <AllColor />
-                    <UsersChoice />
-                    <OutputWindow />
+                    <AllColor state={ this.props.state }/>
+                    <UsersChoice state={ this.props.state }/>
+                    <OutputWindow state={ this.props.state }/>
                 </center>
             </div>
         );

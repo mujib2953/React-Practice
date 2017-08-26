@@ -4,7 +4,9 @@ import './UsersChoice.css';
 class UsersChoice extends React.Component {
     render() {
         return (
-            <div className="userChoice commonBlock">user choice</div>
+            <div className="userChoice commonBlock">
+                { this.props.state.gameText.tabs[ 1 ] }
+            </div>
         );
     }
 };
